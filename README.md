@@ -12,7 +12,7 @@
 
 | Projet | Description | Technologies / Stack |
 | :--- | :--- | :--- |
-| **Goban intelligent** | Conception et routage de cartes électroniques (PCB) pour la matrice de capteurs et LED. Développement d'un firmware multitâche sous FreeRTOS sur ESP32 pour la détection en temps réel (validé par tests Python). Architecture multi-processeurs reliant l'ESP32 à une Raspberry Pi 5 sous Linux intégrant le moteur d'IA KataGo. | ESP32 · Raspberry Pi 5 · FreeRTOS · Python · PCB |
+| **Développement d’un système séquentiel sur cible FPGA** | Conception et implémentation en VHDL d’un système séquentiel de gestion de feux tricolores sur FPGA DE2i-150, piloté par une machine à états finis (FSM). Développement d’un décompteur temporel, d’un diviseur d’horloge et d’un module anti-rebond pour les boutons-poussoirs | QUARTUS · VHDL  · FPGA DE2i-150 |
 | **Station météo connectée** | Système embarqué temps réel d'acquisition de données sur ESP32 et Raspberry Pi. Intégration à Home Assistant, comparaison des mesures aux données de référence Météo-France et création d'une interface web d'affichage (HTML/CSS). | ESP32 · Raspberry Pi · Home Assistant · HTML/CSS |
 | **Acquisition de données multi-capteurs** | Logiciel d'acquisition et d'enregistrement automatique sur carte DAQ avec LabVIEW et Python. Configuration via NI MAX et création d'un séquenceur pour synchroniser les capteurs climatiques (température, lumière, pression). | LabVIEW · Python · NI MAX · DAQ |
 | **Système séquentiel sur cible FPGA** | Conception d'un système numérique synchrone (timer/feux) en VHDL/Verilog piloté par une machine à états finis (FSM). Développement d'un module anti-rebond et diviseur d'horloge, déployé et testé sur FPGA Cyclone V. | VHDL · Verilog · FPGA (Cyclone V) |

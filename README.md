@@ -62,11 +62,15 @@
 ### Langues
 
 
+Français: langue maternelle
 
+Anglais: niveau B2
 
 
 
 
 ### Centres d'intérêts 
 
+Lecture
 
+voyage 
